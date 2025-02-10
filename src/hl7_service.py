@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 def generate_hl7_message(dicom_metadata):
-    """Generate a correctly formatted HL7 message from DICOM metadata."""
+    """Generate HL7 message from DICOM metadata."""
     msg = hl7.Message()
     current_datetime = datetime.now().strftime("%Y%m%d%H%M%S")
 
