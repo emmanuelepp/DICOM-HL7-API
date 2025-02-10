@@ -24,6 +24,12 @@ A simple **Flask-based API** that allows you to **upload, process, and extract m
 | **GET**    | `/dicoms/<filename>`     | Retrieve DICOM metadata         |
 | **GET**    | `/dicoms/<filename>/hl7` | Generate HL7 message from DICOM |
 
+## 📑 HL7 Message Example
+
+Here is an example of a generated HL7 message from DICOM metadata:
+
+![HL7 Message Example](image.png)
+
 ## 📖 Setup & Usage
 
 ### 1️⃣ **Create and Activate Virtual Environment**
