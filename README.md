@@ -42,6 +42,13 @@ python -m venv env
 env\Scripts\Activate.ps1
 ```
 
+#### **On CMD(Windows)**
+
+```cmd
+python -m venv env
+env\Scripts\activate.bat
+```
+
 ### 2️⃣ **Install Dependencies**
 
 ```bash
