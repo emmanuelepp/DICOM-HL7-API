@@ -24,9 +24,51 @@ A simple **Flask-based API** that allows you to **upload, process, and extract m
 | **GET**    | `/dicoms/<filename>`     | Retrieve DICOM metadata         |
 | **GET**    | `/dicoms/<filename>/hl7` | Generate HL7 message from DICOM |
 
-## 📖 Usage
+## 📖 Setup & Usage
 
-### 1️⃣ Run the API
+### 1️⃣ **Create and Activate Virtual Environment**
+
+#### **On Bash (Linux/macOS)**
+
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+#### **On PowerShell (Windows)**
+
+```powershell
+python -m venv env
+env\Scripts\Activate.ps1
+```
+
+### 2️⃣ **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 3️⃣ **Set Environment Variable for Flask**
+
+#### **On Bash (Linux/macOS)**
+
+```bash
+export FLASK_APP=main.py
+
+```
+
+#### **On PowerShell (Windows)**
+
+```powershell
+$env:FLASK_APP = "main.py"
+```
+
+```cmd
+set FLASK_APP=main.py
+```
+
+4️⃣ **Run the API**
 
 ```bash
 flask run
