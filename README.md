@@ -77,7 +77,7 @@ $env:FLASK_APP = "main.py"
 set FLASK_APP=main.py
 ```
 
-4️⃣ **Run the API**
+### 4️⃣ **Run the API**
 
 ```bash
 flask run
