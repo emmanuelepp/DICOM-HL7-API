@@ -7,7 +7,7 @@ A simple **Flask-based API** that allows you to **upload, process, and extract m
 ✅ Upload and store **DICOM** files.  
 ✅ Extract **metadata** (Patient ID, Name, Study Date, etc.).  
 ✅ Convert DICOM metadata into **HL7 v2.5** message format.  
-✅ RESTful API with **Swagger documentation** for easy testing.  
+✅ RESTful API with **Swagger documentation**.  
 ✅ Fully tested with **unit tests for endpoints and core functions**.
 
 ## 🛠️ Technologies
