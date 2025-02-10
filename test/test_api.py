@@ -15,7 +15,7 @@ def client():
 @pytest.fixture
 def dummy_dicom():
     """Use an existing DICOM file from dicom_file_test/"""
-    dicom_file = os.path.join(DICOM_TEST_FOLDER, "img.dcm")
+    dicom_file = os.path.join(DICOM_TEST_FOLDER, "test_dicom.dcm")
 
     if not os.path.exists(dicom_file):
         raise FileNotFoundError(f"Test DICOM file not found: {dicom_file}")
